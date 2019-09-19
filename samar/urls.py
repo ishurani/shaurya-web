@@ -19,11 +19,12 @@ from samarapp import views
 from django.conf import settings
 from django.conf.urls.static import static
 urlpatterns = [
-    path('',views.index),
+    path('',views.index,name='home'),
     path('admin/', admin.site.urls),
     path('samar/',include('samarapp.urls')),
-    path('accounts/',include('django.contrib.auth.urls')),
+    path('accounts/',include('django.contrib.auth.urls'),name='login'),
      path('accounts/', include('accounts.urls')),
+     
 
 ]
 if settings.DEBUG:
