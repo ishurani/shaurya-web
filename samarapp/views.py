@@ -25,3 +25,5 @@ def about(request):
     return render(request,'about.html')
 def games(request):
     return render(request,'games.html')
+def contact(request):
+    return render(request,'contact.html')
