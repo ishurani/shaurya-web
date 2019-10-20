@@ -27,3 +27,9 @@ def games(request):
     return render(request,'games.html')
 def contact(request):
     return render(request,'contact.html')
+def gallery(request):
+    return render(request,'gallery.html')
+def sponsers(request):
+    return render(request,'sponsers.html')
+def team(request):
+    return render(request,'team.html')
