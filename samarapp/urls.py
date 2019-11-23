@@ -4,8 +4,7 @@ urlpatterns=[
 
 path('about/',views.about,name='about'),
 path('games/',views.games,name='games'),
-path('contact/',views.contact,name='contact'),
 path('gallery/',views.gallery,name='gallery'),
 path('sponsers/',views.sponsers,name='sponsers'),
-path('team',views.team,name='team'),
+path('team/',views.team,name='team'),
 ]
